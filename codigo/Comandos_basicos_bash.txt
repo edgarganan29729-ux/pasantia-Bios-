@@ -1,0 +1,157 @@
+# curso de programación básica en WARP 
+usuario: warp**************
+contraseña:****************
+
+// mv # mover carpetas dentro o fuera del directorio 
+// cp # copiar una carpeta 
+// mv ./ sacar un archivo de algún lugar y traerlo a donde estoy 
+// mv README.md LEEME.md #cambio de nombre de un archivo # mv: mover o renombrar 
+// mkdir # como crear un archivo 
+// rm # elimina carpetas, no elimina directorios 
+// rm -r carpeta # elimina el directorio 
+// rm ri caperta # examina el fichero y si lo elimino o no 
+// rm -rf # borra todo y lo especificado. mejor no usar, puede eliminar todo y sin recuperar mucho 
+// # comodines 
+// ls # todos los ficheros 
+// ls * .txt # ferencia a lo que le coloque la extensión 
+// ls 03* # que fichero comienza por 03 o cualquier nombre 
+// ls 03*.txt # que archivo comienza por 03 y tiene la extención .txt
+// ? # numero exacto de caracteres 
+// ls ????* #para buscar hacer referencia a elementos 
+// ls ??.txt # busca 
+// ls ?* # numero exacto de caracteres de un elemento para encontrar 
+// rm a. txt # para borrar todos lo txt 
+// rm ?.txt # para elminar todos los dicherod que tengan .txt 
+#################################################################
+listados avanzados 
+// tree # para terminal, instalar 
+// tree -a #
+// find # busca archivos por nombre 
+// find "archivo".md # buscar un archivo con su extención 
+// find . _name "READ*" # para que busque el nombre del archivo que nicia asi y tembien se le puede agregar las extenciones
+#################################################################
+lectura de archivos # ecensiales 
+// cat # muestra el contenido de un archivo pequeño, no recomendado para grandes 
+// less # para visualizar archivos mas largos, y tener mas control, es un visulizador o editor 
+// Q # pasalir de lees, del visulizador 
+// more # similar lees y menos funcionalidades, modo de moverce con la fecha y no necesito Q para salir 
+// head archivo # puedo leer las 10 primeras lineas del archivo 
+// head -n #  para especificar las lineas que necesito 
+// tail # acede a las ultimas 10 lineas 
+// tail -n # para especificar las ultimas lienas a ver 
+// tail -f file.log, # para ver las ultimas lineas asi este cambiando 
+################################################################
+Busquedas detro de ls ficheros 
+// grep # busqueda destro de acrivos 
+// grep "objeto" archivo # busqueda de todas las lineas donde aparece lo que necesito
+// grep -i "objeto" archivo # para busquedas sin tener en cuenta las mayusculas o minisculas 
+// grep -r directorio "objeto" # lo busca en todo el directorio y muestra donde se encuentra el objeto
+// wc # cuenta elementos dentro de los acrivos 
+// wc -l archivo # cuenta las lineas y de las palabras y caracteres 
+// wc -c arhivo # 
+// wx -cl archivo # combina los comandos c y l 
+###############################################################
+redirecciones y pipes 
+// >< # 
+// echo "hola" # solo nos muestra hola en la consola 
+// echo "hola > hello.txt # redirije esta salida a un archivo o sobreescritura 
+// echo "hola!" >> archivo.txt # para agregar a un archivo y concatenar 
+// tree >> archivo.txt # se guarda el árbol dentro de un archivo.txt
+// sort < archivo.txt # ejecuta el inicio del archivo.txt en la consola para usar 
+// | # para concatenas varios comandos 
+// cat archivo | grep "objeto" | wc # me va a haer una concatenación de las ordenes 
+################################################################
+variables de entorno 
+// echo $HOME
+// echo $PATH 
+## una variable me sirve para almacenar un dato 
+// name="Brais # defini una variable de nombre "brais" y es una variable local
+// export NAME="brais more" # para crear un avariable global 
+################################################################
+Editores de texto 
+## Nano = basico 
+vim= avanzado 
+// nano README.md # contenido de README, podemos movernos en el documento y editarlo como texto plano, mos da atajos de como movernos en el texto, ejemplo *Ctrl + g* no da cuales son algunas ayudas, *Ctrl + V* para moverme entre paginas, *Ctrl + X* para salir y no guardar
+// nano archivo.txt # crea un fichero en memoria sin guardarlo 
+/ hola quiero aprender bash # uso *Ctrl + o* para guardar los cambios, en el fichero quedo mi archivo guardando los cambios previos 
+## comandos de nano
+*Ctrl + v* para buscar texto 
+*Ctrl + k* corta texto 
+*Ctrl + u* para pégar texto
+## vim # mas potente 
+// vim archivo.txt # si existe lo busca y si no lo crea 
+# modos 
+normal= navegar, borrar, copiar y acciones simples -> para ecribir tengo que tener activado el modo inserción
+Comandos=
+// / # buscar
+// dd # elimina la linea 
+// yy # copia la linea 
+// p # pega la linea 
+// u # deshago 
+inserción= para escribir 
+comandos especiales= 
+// i # modo inseción 
+// Esc # para salir del modo inserción 
+// :q # para salir 
+// wq # para salir y guardar 
+// :q! # obligo a salir 
+## para usar git sirve para editar o hacer uso de los comits 
+##################################################################
+neovim editor de código, evolución de vim 
+Emacs etidtor de texto, otra opción 
+##################################################################
+Administración del sistema 
+permisos usuario u, grupo q, otros o todo a 
+lectura r,    
+escritura w
+ejecución x
+Como vemos los permisos 
+// ls -l archivos.txt # me da información de permisos 
+Anatomía de los permisos 
+# del video [-rw-r--r--]
+[-] # guion archivo normal [l] # archivo simbólico [b] # bloque [s] # dispositivo de carácter etc
+[rw-] # permisos de usuario, tiene permiso de lectura, escritura pero no tiene permiso de ejecución [rwx] todos los permisos 
+[r--] # permisos del grupo 
+[r--] # permisos de otros 
+si aparece [-] no tiene ese permiso otorgado 
+#modo octal
+r = 4
+w = 2
+x = 1
+## modificar permisos 
+// chmod # modificar el permiso 
+// chmod u+ añadir permiso u- quitar permiso  
+// chmod u+ archivo.txt # le di permiso al usuario [u] de ejecución 
+# modo octal
+// chmod 777 archivo.txt # primer [7] hace referencia al grupo de usuario-propietario el segundo [7] usuarios y el tercer [7] a otros 
+// chmod 644 archivo.txt # cada numero es hace referencia a un permiso 
+## cambiar el propietario del grupo 
+// chown dario:grupo archivo.txt # cambiar el propietario y de grupo 
+mascara de permisos 
+// umask 
+# del video 0022
+0 - sistema octal 
+0 - usuario # no quito nada 
+2 - grupos # si pongo numero quito un permiso 
+2 - otros 
+# la mascara me dice los permisos por defecto de los archivos que cree
+// touch nota.txt # me crea un archivo 
+// touch scrip.sh # creo este documento 
+# no es li mismo los permiso de un documento a los de un archivo 
+// ls -ld # mas detalle de un archivo, muestra que permisos tiene 
+## para directorios los permisos máximos son 777 para chivos 666
+// umask 000 # modifico la mascara, y le puedo dar o quitar permisos 
+#########################################################################
+super usuario 
+// sudo # para poner contraseña para una función muy importante 
+// 
+
+
+
+
+
+
+
+
+ 
+

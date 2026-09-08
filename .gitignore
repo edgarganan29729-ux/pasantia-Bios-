@@ -1,0 +1,15 @@
+# Instaladores y ejecutables
+*.exe
+
+# Archivos temporales
+*.tmp
+~$*
+
+# Archivos de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
