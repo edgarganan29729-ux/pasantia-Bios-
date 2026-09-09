@@ -1,0 +1,81 @@
+MUTACIONES GENICAS PUNTUALES EN TUMORES CEREBRALES (Balaji & Devasena, 2027)
+UBICACION GENOMICA, TRANSCRITO Y PROTEINA ASOCIADA - VERIFICADO EN NCBI GENE / OMIM
+================================================================================================================================
+Fecha de consulta: septiembre 2026. Coordenadas segun ensamblaje GRCh38 salvo indicacion contraria.
+================================================================================================================================
+
+GEN      | NCBI GENE ID | LOCUS CROMOSOMICO      | TRANSCRITO PRINCIPAL (mRNA)      | PROTEINA PRINCIPAL (RefSeq)     | FUNCION / MUTACION RELEVANTE
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+IDH1     | 3417         | 2q34                     | NM_005896.4 (variantes:            | NP_005887.2 (variantes:           | Enzima citosolica/peroxisomal del ciclo TCA (isocitrato ->
+         |              | (10 exones, ~18.9-18.85 kb)| NM_001282386, NM_001282387)      | NP_001269315, NP_001269316)       | alfa-cetoglutarato). Mutacion recurrente en codon 132 (R132H
+         |              |                          |                                     |                                     | mas comun) genera neomorfismo: produce 2-hidroxiglutarato
+         |              |                          |                                     |                                     | (2-HG), un oncometabolito. Mutuamente excluyente con IDH2.
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+IDH2     | 3418         | 15q26.1                  | Transcrito principal via NCBI       | Proteina mitocondrial homodimero  | Isoforma mitocondrial de IDH; participa en el ciclo de Krebs.
+         |              |                          | (multiples variantes por splicing  | NADP-dependiente                   | Mutacion recurrente en codon R172 (analoga a R132 de IDH1).
+         |              |                          | alternativo, RefSeq Feb 2014)       |                                     | Tambien mutuamente excluyente con IDH1.
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+TP53     | 7157         | 17p13.1                  | NM_000546.6                        | NP_000537.3                        | Factor de transcripcion, "guardian del genoma"; regula
+         |              | (11 exones, ~19-20 kb;   |                                     | (tambien NP_001119584 y otras      | arresto del ciclo celular, apoptosis y reparacion del ADN
+         |              | 13 exones segun anotacion|                                     | isoformas, >12 descritas)          | ante dano genotoxico. Mutado en >50% de canceres humanos;
+         |              | NCBI mas reciente)       |                                     |                                     | linea germinal mutada causa sindrome de Li-Fraumeni.
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+EGFR     | 1956         | 7p11.2                   | NM_005228.5 (transcrito canonico)  | NP_005219.2                        | Receptor tirosina-quinasa transmembrana de la familia ErbB;
+         |              | (~193-207 kb, cadena +)  | (tambien variantes como NM_201282  | (tambien NP_958439 y otras         | dimerizacion inducida por EGF activa proliferacion celular.
+         |              |                          | -> NP_958439)                      | isoformas)                         | Amplificacion/mutacion (ej. variante EGFRvIII) frecuente en
+         |              |                          |                                     |                                     | glioblastoma; mutaciones puntuales tambien accionables en
+         |              |                          |                                     |                                     | NSCLC (ITK como Osimertinib).
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+TERT     | 7015         | 5p15.33                  | NM_198253.3                        | NP_937983.2                        | Subunidad catalitica de la telomerasa (transcriptasa
+         |              | (region ~40 kb junto a  |                                     |                                     | inversa) que mantiene la longitud telomerica. Mutaciones en
+         |              | CLPTM1L)                 |                                     |                                     | el promotor (no codificantes, C228T y C250T las mas
+         |              |                          |                                     |                                     | frecuentes) reactivan la expresion de TERT; marcador
+         |              |                          |                                     |                                     | diagnostico/pronostico en gliomas difusos.
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+H3F3A    | 3020         | 1q42.12                  | Transcrito con intrones (a         | P84243 (UniProt) / proteina        | Codifica la variante de histona H3.3, independiente de
+(H3 K27M)|              | diferencia de la mayoria | diferencia de la mayoria de genes  | histona H3.3 de 136 aminoacidos    | replicacion, componente del nucleosoma. La mutacion
+         |              | de histonas)             | de histonas, tiene ARNm             |                                     | somatica K27M (lisina->metionina en posicion 27) inhibe el
+         |              |                          | poliadenilado)                      |                                     | complejo represor Polycomb 2 (PRC2); define la entidad
+         |              |                          |                                     |                                     | "glioma difuso de linea media, H3 K27M-mutante" (OMS 2021).
+         |              |                          |                                     |                                     | Nota: la misma mutacion K27M puede originarse tambien en
+         |              |                          |                                     |                                     | HIST1H3B (locus 6p22.2).
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+NF1      | 4763         | 17q11.2                  | Transcrito principal via NCBI       | Neurofibromina (proteina           | Gen supresor tumoral; codifica neurofibromina, una GTPasa
+         |              | (gen grande, >280 kb,   | (multiples exones, >280 kb de      | citoplasmatica multidominio)       | activadora (GAP) que regula negativamente la via RAS.
+         |              | con pseudogenes en      | genoma)                             |                                     | Mutacion/perdida asociada a glioblastoma (10-15% de
+         |              | 2q21, 14q11, 22q11)     |                                     |                                     | gliomas de alto grado) y al sindrome de Neurofibromatosis
+         |              |                          |                                     |                                     | tipo 1 (linea germinal).
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+ERBB2    | 2064         | 17q12                    | NM_004448.4 (transcrito canonico)  | NP_004439.2                        | Receptor tirosina-quinasa de la familia EGFR/ErbB, tambien
+(HER2)   |              | (adyacente al locus     |                                     |                                     | conocido como HER2; carece de ligando propio conocido,
+         |              | de NF1 en 17q)          |                                     |                                     | actua por heterodimerizacion. Amplificacion/mutacion
+         |              |                          |                                     |                                     | activadora en glioblastoma (poco frecuente) y diana
+         |              |                          |                                     |                                     | terapeutica clasica en cancer de mama (trastuzumab).
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+PIK3R1   | 5295         | 5q13.1                   | Transcrito principal via NCBI       | Subunidad reguladora p85-alfa de   | Codifica la subunidad reguladora de la PI3K clase IA;
+         |              |                          | (multiples variantes de splicing)  | la fosfoinositido 3-quinasa (PI3K) | modula la actividad catalitica de p110. Mutaciones
+         |              |                          |                                     |                                     | somaticas (~15% de glioblastomas) activan la via
+         |              |                          |                                     |                                     | RTK/RAS/PI3K, frecuentemente junto con mutaciones de
+         |              |                          |                                     |                                     | PIK3CA.
+---------|--------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------------------------------------------
+PIK3CA   | 5290         | 3q26.32                  | Transcrito principal via NCBI       | Subunidad catalitica p110-alfa de  | Codifica la subunidad catalitica de la PI3K; mutaciones
+(mencionado          |              |                          | (multiples variantes de splicing)  | la fosfoinositido 3-quinasa (PI3K) | activadoras (hotspots en dominios helicoidal y quinasa)
+en contexto           |              |                          |                                     |                                     | promueven senalizacion PI3K-AKT-mTOR constitutiva;
+de la via PI3K)        |              |                          |                                     |                                     | relevante en glioblastoma y cancer de mama.
+================================================================================================================================
+
+NOTAS METODOLOGICAS:
+1. Las coordenadas y numeros de acceso RefSeq (NM_/NP_) fueron verificados mediante busqueda en NCBI Gene,
+   OMIM y bases de datos derivadas (GeneCards, NIH Genetic Testing Registry). Los identificadores "NCBI Gene ID"
+   corresponden al numero Entrez Gene de cada locus.
+2. Para genes con multiples transcritos por splicing alternativo (ej. IDH1, IDH2, PIK3CA, PIK3R1, NF1), se
+   indica el transcrito principal/canonico cuando esta disponible; NCBI Gene lista variantes adicionales.
+3. TRANSCRITO Y PROTEINA: todos los genes de esta tabla tienen tanto ARNm (transcriptoma) como proteina
+   codificante documentados en NCBI/UniProt. H3F3A es una excepcion notable dentro de la familia de histonas:
+   a diferencia de la mayoria de genes de histonas (que carecen de intrones y no se poliadenilan), H3F3A
+   contiene intrones y produce un ARNm poliadenilado, lo cual es inusual para esta familia genica.
+4. El listado corresponde unicamente a las "mutaciones genicas puntuales" senaladas en el articulo de
+   Balaji & Devasena (2027). No incluye alteraciones cromosomicas completas (1p/19q, CDKN2A/B, +7/-10),
+   que son deleciones/ganancias en lugar de mutaciones puntuales, ni los marcadores del segundo articulo
+   (Senthilkumar et al., 2026) salvo PIK3CA/PIK3R1 que aparecen en ambos.
+================================================================================================================================

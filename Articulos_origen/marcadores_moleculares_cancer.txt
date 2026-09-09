@@ -1,0 +1,109 @@
+TABLA GENERAL DE MARCADORES MOLECULARES EN CANCER
+Fuentes:
+[1] Balaji & Devasena (2027) - "Quality assessment, prognostic factors, and biomarkers for brain tumor analysis: a comprehensive systematic review" - Clinica Chimica Acta
+[2] Senthilkumar, Saravanan & Ramalingam (2026) - "Tumor Genomics in Precision Oncology" - SN Comprehensive Clinical Medicine
+================================================================================================================================
+
+MARCADOR              | CATEGORIA                  | TIPO DE CANCER / CONTEXTO                              | SIGNIFICADO CLINICO                                    | FUENTE
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+MGMT                  | Epigenetico (metilacion)    | Glioblastoma, gliomas                                    | Predice respuesta a temozolomida; mejor sobrevida       | [1] y [2]
+                       |                             |                                                           | si esta metilado                                        |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+IDH1 / IDH2            | Mutacion puntual            | Glioblastoma (73-85% secundarios, pocos primarios)       | Pronostico favorable; produce oncometabolito 2-HG;      | [1] y [2]
+                       |                             | Tambien mencionado en clasificacion general OMS         | clasificacion diagnostica (IDH-mutante vs wildtype)     |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+TP53                   | Supresor tumoral            | Glioblastoma, Li-Fraumeni, >50% de canceres en general   | Perdida de checkpoint de dano al ADN; peor pronostico   | [1] y [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+EGFR                   | Oncogen / receptor          | Glioblastoma (amplificacion/EGFRvIII); cancer de         | Diana terapeutica (ITK); resistencia via T790M/C797S    | [1] y [2]
+                       | tirosina-quinasa            | pulmon no microcitico (NSCLC)                            | en NSCLC                                                 |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+TERT (promotor)         | Mutacion de promotor        | Gliomas difusos, melanoma                                | Marcador diagnostico y pronostico; uso en biopsia       | [1]
+                       |                             |                                                           | liquida (LCR)                                            |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+1p/19q codeleccion      | Alteracion cromosomica      | Oligodendroglioma                                        | Marcador definitorio diagnostico; mejor pronostico      | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+CDKN2A/B                | Deleccion homocigota /      | Astrocitoma IDH-mutante (glioma); tambien mencionado     | Marcador independiente de grado 4 CNS OMS;              | [1] y [2]
+                       | metilacion promotor         | como gen supresor silenciado por metilacion en canceres  | silenciamiento epigenetico general                       |
+                       |                             | en general                                               |                                                           |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+H3 K27M                 | Mutacion de histona          | Glioma difuso de linea media (pediatrico)                | Define entidad diagnostica en clasificacion OMS 2021    | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+NF1                     | Supresor tumoral            | Glioblastoma (10-15% de gliomas de alto grado);          | Sensibiliza a inhibidores MEK + radiacion;              | [1]
+                       |                             | Neurofibromatosis tipo 1                                 | subtipo mesenquimal agresivo                             |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+ERBB2 (HER2)             | Oncogen / receptor          | Glioblastoma (poco frecuente); cancer de mama            | Diana terapeutica (trastuzumab en mama)                 | [1] y [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+PIK3R1 / PIK3CA          | Via de senalizacion PI3K    | Glioblastoma (~15%); cancer de mama                      | Asociado a inmunoterapia y vulnerabilidad terapeutica   | [1] y [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+CD133                   | Marcador de superficie      | Glioblastoma (celulas madre tumorales)                   | Sin valor pronostico significativo (segun estudio       | [1]
+                       |                             |                                                           | citado); util para biologia tumoral                     |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+Ki-67                   | Indice de proliferacion     | Glioblastoma y tumores en general                        | Marcador de proliferacion celular                        | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+Genes HOX                | Expresion genica            | Glioma (HOXA5, HOXA7, HOXA10, HOXC4, HOXC6)              | Correlacion con CD133 y agresividad/sobrevida           | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+GFAP                    | Proteina circulante          | Glioblastoma                                             | Baja sensibilidad diagnostica (expresion inconsistente) | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+S100B / BDNF             | Proteinas circulantes        | Tumores del SNC                                          | Baja especificidad (tambien presentes en sanos)         | [1]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+ctDNA                   | Biopsia liquida              | Oligoastrocitoma, astrocitoma, NSCLC, mama (ESR1)        | Monitoreo no invasivo; deteccion de mutaciones           | [1] y [2]
+                       |                             |                                                           | accionables (T790M); enfermedad residual minima          |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+CTCs                    | Biopsia liquida              | Melanoma, NSCLC, feocromocitoma, tumores cerebrales      | Prediccion independiente de pronostico                  | [1] y [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+Vesiculas extracelulares | Biopsia liquida              | Glioblastoma                                             | Monitoreo de recurrencia subclinica; marcadores          | [1]
+(EVs) (AURKA, PARP1, SRC)|                             |                                                           | AURKA/PARP1/SRC en analisis transcripcional             |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+miRNAs circulantes       | Biopsia liquida / epigenetica| Glioblastoma (ej. miR-125b, panel de 115 sobre-/24       | Biomarcador no invasivo de diagnostico y monitoreo      | [1]
+                       |                             | sub-expresados)                                          |                                                           |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+KRAS                    | Oncogen                     | Colorrectal, pancreas, pulmon                            | Resistencia a inhibidores de EGFR; diana terapeutica    | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+MYC                     | Oncogen                     | Multiples canceres                                       | Amplificacion asociada a proliferacion e inestabilidad  | [2]
+                       |                             |                                                           | genomica                                                  |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+BRAF (V600E)             | Oncogen                     | Melanoma, colorrectal                                    | Diana de inhibidores BRAF/MEK                            | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+RB1                     | Supresor tumoral            | Retinoblastoma, carcinoma pulmonar de celulas pequenas   | Perdida de control del ciclo celular (transicion G1-S)  | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+PTEN                    | Supresor tumoral            | Glioblastoma, cancer de prostata                         | Perdida activa via PI3K-AKT                              | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+BRCA1 / BRCA2            | Reparacion de ADN            | Mama, ovario, prostata                                   | Diana de inhibidores PARP (letalidad sintetica)         | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+MLH1 / MSH2              | Reparacion de ADN (MMR)      | Sindrome de Lynch, canceres asociados                    | Inestabilidad microsatelital; sensibiliza a             | [2]
+                       |                             |                                                           | inhibidores de checkpoint inmune                         |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+ALK / ROS1               | Fusion genica                | NSCLC                                                    | Diana de crizotinib, alectinib                           | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+EML4-ALK                | Fusion genica                | NSCLC                                                    | Diana terapeutica identificada por RNA-seq              | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+PIK3CA                  | Oncogen (via PI3K)           | Mama                                                     | Diana terapeutica; ensayos basket (NCI-MATCH)           | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+AR-V7                   | Variante de splicing         | Cancer de prostata                                       | Influye en respuesta a terapia dirigida al receptor     | [2]
+                       |                             |                                                           | de androgenos                                             |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+FLT3                    | Mutacion                     | Leucemia mieloide aguda (LMA)                            | Diana de inhibidores de tirosina-quinasa                | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+BCR-ABL                 | Fusion genica                | Leucemia mieloide cronica (LMC)                          | Diana clasica de inhibidores de tirosina-quinasa        | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+NTRK                    | Fusion genica                | Multiples tumores (tejido-agnostico)                     | Diana de larotrectinib; aprobacion regulatoria          | [2]
+                       |                             |                                                           | tejido-agnostica                                          |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+PD-1 / PD-L1 / CTLA-4    | Inmunologico (checkpoint)    | Multiples tumores                                        | Diana de inhibidores de checkpoint inmune               | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+TMB (carga mutacional)   | Marcador inmunologico        | Multiples tumores                                        | Alta TMB predice respuesta a inmunoterapia              | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+MSI-H / dMMR             | Marcador inmunologico        | Colorrectal, Lynch, multiples tumores                    | Predice respuesta a inhibidores de checkpoint           | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+POLE / POLD1             | Genes de polimerasa de ADN   | Tumores hipermutados                                     | Asociados a mejor respuesta a inmunoterapia             | [2]
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+STK11 / KEAP1             | Alteracion genomica          | NSCLC                                                    | Asociados a evasion inmune y resistencia a              | [2]
+                       |                             |                                                           | inmunoterapia                                             |
+----------------------|-----------------------------|---------------------------------------------------------|---------------------------------------------------------|--------
+ESR1 (mutaciones)        | Resistencia endocrina        | Cancer de mama RE+ (metastasico)                         | Deteccion en ctDNA para identificar resistencia         | [2]
+                       |                             |                                                           | endocrina temprana                                        |
+================================================================================================================================
+
+NOTA: Los marcadores marcados con "[1] y [2]" aparecen en ambas revisiones, aunque en contextos
+tumorales distintos (Balaji & Devasena se centra en tumores cerebrales; Senthilkumar et al.
+cubre oncologia general). El resto son especificos de una sola fuente segun su enfoque tematico.
